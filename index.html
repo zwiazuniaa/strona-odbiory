@@ -1,0 +1,178 @@
+<details> <summary>
+  <!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Odbiory techniczne mieszkań – Jan Kowalski</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #1b5e20;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      color: #2e7d32;
+    }
+
+    .opinia {
+      background-color: #eee;
+      padding: 15px;
+      border-left: 5px solid #2e7d32;
+      margin-bottom: 10px;
+    }
+
+    form {
+      background-color: #f1f8f2;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    form input[type="submit"] {
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    form input[type="submit"]:hover {
+      background-color: #276628;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #e0e0e0;
+      font-size: 14px;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Jan Kowalski – Odbiory Techniczne Mieszkań</h1>
+  <p>Profesjonalna ocena stanu mieszkania przed odbiorem od dewelopera</p>
+</header>
+
+<nav>
+  <a href="#o-mnie">O mnie</a>
+  <a href="#oferta">Oferta</a>
+  <a href="#opinie">Opinie</a>
+  <a href="#kontakt">Kontakt</a>
+</nav>
+
+<main>
+  <section id="o-mnie">
+    <h2>O mnie</h2>
+    <p>Nazywam się Jan Kowalski i jestem inżynierem budownictwa z ponad 10-letnim doświadczeniem w odbiorach technicznych mieszkań. Pomagam klientom upewnić się, że ich nowe mieszkanie spełnia normy techniczne i standardy wykończenia.</p>
+  </section>
+
+  <section id="oferta">
+    <h2>Co oferuję</h2>
+    <ul>
+      <li>Sprawdzenie pionów i poziomów ścian oraz podłóg</li>
+      <li>Weryfikacja stolarki okiennej i drzwiowej</li>
+      <li>Pomiar powierzchni lokalu</li>
+      <li>Kontrola instalacji elektrycznej i hydraulicznej</li>
+      <li>Zdjęcia usterek i sporządzenie protokołu</li>
+    </ul>
+    <p><strong>Cena od 250 zł – zależnie od metrażu i lokalizacji.</strong></p>
+  </section>
+
+  <section id="opinie">
+    <h2>Opinie klientów</h2>
+    <div class="opinia">
+      <p>"Pan Jan wykrył usterki, których sam bym nigdy nie zauważył. Dzięki niemu deweloper poprawił wszystko przed podpisaniem odbioru. Polecam!" – Anna, Warszawa</p>
+    </div>
+    <div class="opinia">
+      <p>"Szybko, profesjonalnie i bardzo dokładnie. Super kontakt i raport PDF po odbiorze. 10/10!" – Tomasz, Pruszków</p>
+    </div>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>📞 Telefon: <a href="tel:+48123456789">+48 123 456 789</a></p>
+    <p>📧 Email: <a href="mailto:jan.kowalski@example.com">jan.kowalski@example.com</a></p>
+    <p>🗺️ Działam na terenie Warszawy i okolic (do 30 km).</p>
+
+    <form action="mailto:jan.kowalski@example.com" method="post" enctype="text/plain">
+      <label for="name">Imię:</label><br>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="message">Wiadomość:</label><br>
+      <textarea id="message" name="message" rows="5" required></textarea><br>
+
+      <input type="submit" value="Wyślij">
+    </form>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Jan Kowalski – Odbiory Techniczne Mieszkań
+</footer>
+
+</body>
+</html>
+
